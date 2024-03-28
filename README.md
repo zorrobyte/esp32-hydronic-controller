@@ -2,8 +2,6 @@
 
 This project provides a controller for a heater system based on the ESP32 platform on MicroPython. It uses MQTT for remote communication, allowing the user to set the desired temperature and receive sensor readings. The controller also has an attempt at safety measures to ensure the system operates within safe temperature ranges, but could still lead to injury, death, property damage, divorce, and other horrible things.
 
-> :warning: **Note**: This code is currently **(semi)untested** and **broken**. Even when I deem it good enough, use with caution and test in a safe environment before deploying.
-
 ## :fire: Liability Disclaimer :fire:
 
 **WARNING:** This code is provided "AS IS" without warranty of any kind. Use of this code in any form acknowledges your acceptance of these terms.
@@ -17,7 +15,7 @@ Always approach such systems with caution. Ensure you understand the code, the s
 Stay safe and think before you act.
 
 ## Simulator
-You can fuck around with this project in the [ESP32 simulator](https://wokwi.com/projects/379601065746814977)
+You can mess around with this project in the [ESP32 simulator](https://wokwi.com/projects/379601065746814977)
 Press play then mess with the switches and temp sensors
 Toggle IS_SIMULATION False if you'd like and manually simulate startup of a diesel heater (hint, increase exhaust temp during startup between each step)
 Note that the simulator code is now old, but it can still be useful and fun to play with
