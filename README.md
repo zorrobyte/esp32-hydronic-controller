@@ -1,14 +1,10 @@
 # ZorroHeater Project
 
-This project provides a controller for a heater system based on the ESP32 platform on MicroPython. It uses MQTT for remote communication, allowing the user to set the desired temperature and receive sensor readings. The controller also has an attempt at safety measures to ensure the system operates within safe temperature ranges, but could still lead to injury, death, property damage, divorce, and other horrible things.
+This project provides a controller for a heater system based on the ESP32 platform on MicroPython. It uses MQTT for remote communication, allowing the user to set the desired temperature and receive sensor readings. The codebase should be pretty universal.
 
 ## :fire: Liability Disclaimer :fire:
 
 **WARNING:** This code is provided "AS IS" without warranty of any kind. Use of this code in any form acknowledges your acceptance of these terms.
-
-This code has **NOT** been tested in real-world scenarios. Improper usage, lack of understanding, or any combination thereof can result in significant property damage, injury, loss of life, or worse. Specifically, this code is related to controlling heating elements and systems, and there's a very real risk that it can **BURN YOUR SHIT DOWN**.
-
-By using, distributing, or even reading this code, you agree to assume all responsibility and risk associated with it. The author(s), contributors, and distributors of this code will **NOT** be held liable for any damages, injuries, or other consequences you may face as a result of using or attempting to use this code.
 
 Always approach such systems with caution. Ensure you understand the code, the systems involved, and the potential risks. If you're unsure, **DO NOT** use the code.
 
@@ -68,14 +64,3 @@ Note that the simulator code is now old, but it can still be useful and fun to p
 - Possibly use an external ADC chip like the DS1232/ADS1234 to get around ESP32 ADC noise issues
 - Would be nice to have some sort of air/fuel autotune
 - Eventually would be nice to have a custom/own board that's universal use friendly, such as with screw wire terminals
-
-## License
-[See LICENSE.md](./LICENSE.md)
-
-It's quite intriguing to observe the paradoxical reactions from some developers—especially those committed to open source principles—when their work is utilized or adapted by others. While I have no commercial ambitions for this project, I find immense satisfaction in tinkering in my workshop and contributing to the broader community.
-
-In my youth, I faced undue criticism and even threats for merely adapting game mod code that was open source. This experience solidified my commitment to upholding the true spirit of open source licensing.
-
-I've dedicated numerous hours to designing hardware like a steering angle sensor for the Openpilot self-driving community, without any expectation of financial gain. It's genuinely gratifying to see my work replicated and utilized, even if it's being commercially produced elsewhere. If my contributions are of high quality, I believe people will naturally wish to support the original creators.
-
-Therefore, feel free to use this project as you see fit, whether that's selling it, modifying it, or even rebranding it. However, please note that any risks or liabilities incurred as a result of using this project are solely your responsibility. Let's not allow the fear of appropriation to stifle innovation or push projects to become proprietary, which ultimately harms us all.
