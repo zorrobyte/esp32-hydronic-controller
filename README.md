@@ -18,6 +18,7 @@ Note that the simulator code is now old, but it can still be useful and fun to p
 
 ## Features:
 
+- **A full standalone Wi-Fi AP with built in web portal**
 - **Remote control via MQTT**:
   - Set target temperature
   - Start or stop the heater
