@@ -2,6 +2,8 @@
 
 This project provides a controller for a heater system based on the ESP32 platform on MicroPython. It uses MQTT for remote communication, allowing the user to set the desired temperature and receive sensor readings. The codebase should be pretty universal.
 
+Note that I have yet to use this in everyday use and the project is very much considered Alpha/untested at this time. If you have an immediate need for a diesel air heater controller, I can highly recommend Afterburner by Ray Jones. I primairly built this to control a Diesel Water Heater for a hydronic install as the built in controller was poor, and most scavanged units out of Land Rovers/etc don't have a control board available.
+
 ## :fire: Liability Disclaimer :fire:
 
 **WARNING:** This code is provided "AS IS" without warranty of any kind. Use of this code in any form acknowledges your acceptance of these terms.
